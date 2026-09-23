@@ -75,8 +75,6 @@ docker-compose down -v
 | `REDIS_PASSWORD` | Пароль Redis (опционально) | Нет | `openssl rand -base64 24` |
 | `_PIP_ADDITIONAL_REQUIREMENTS` | Доп. Python пакеты при старте | Нет | `pandas numpy` |
 
-> ⚠️ **Никогда не коммитьте файл `.env` в Git!** Он добавлен в `.gitignore`.
-
 ---
 
 ## 📁 Структура проекта
