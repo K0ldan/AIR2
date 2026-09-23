@@ -125,11 +125,3 @@ docker-compose exec redis redis-cli -a "$REDIS_PASSWORD"
 3. **Load** — запись в PostgreSQL таблицу `weather_data`
 
 Таблица создаётся автоматически при первом запуске (через Airflow Connection `postgres_default`).
-
----
-
-
-
-## 📄 Лицензия
-
-Apache License 2.0 — см. заголовок `docker-compose.yaml`.
